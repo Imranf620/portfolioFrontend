@@ -1,0 +1,38 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+} 
+
+body{
+  scroll-snap-align: center;
+}
+
+body::-webkit-scrollbar{
+  width: 6px;
+
+
+}
+
+::-webkit-scrollbar-thumb{
+  color: yellow;
+  background-color: aqua;
+  border-radius: 15px;
+  width: 2px;
+
+
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+

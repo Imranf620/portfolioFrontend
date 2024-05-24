@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #09090b;
+}
+
+.btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 35px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.btn-all {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+}
+.btn3 {
+  color: white;
+}
+.btn2 {
+  background: #261e2b;
+  height: 96%;
+  width: 98%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shade-h1 {
+  color: transparent;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+table tr:nth-child(odd) td {
+  /* padding: 10px 0px; */
+  color: rgba(185, 204, 219, 0.726);
+  border-left: 1px solid rgba(245, 245, 245, 0.242);
+  text-align: center;
+  font-size: 13px;
+}
+table tr:nth-child(odd) td:nth-child(1) {
+  padding: 30px 0px;
+  color: white;
+  border-left: 1px solid transparent;
+  text-align: start;
+  padding-left: 30px;
+}
+
+table tr:nth-child(even) td {
+  color: rgba(185, 204, 219, 0.726);
+  border-left: 1px solid rgba(245, 245, 245, 0.242);
+  text-align: center;
+  font-size: 13px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+table tr:nth-child(even) td:nth-child(1) {
+  color: white;
+  border-left: 1px solid transparent;
+  text-align: start;
+  padding-left: 30px;
+  padding-right: 0px;
+
+}
+table tr:nth-child(even) {
+  background: #261e2b;
+}
+
+table tr td:nth-child(2){
+  padding: 0px 50px;
+  border-left: 1px solid transparent;
+  text-align: center;
+
+}
+.Table-btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 35px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.Table-btn2 {
+  background: #261e2b;
+  height: 98%;
+  width: 98%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Table-btn3 {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+}
+.Brave-Border {
+  height: 55px;
+  width: 55px;
+ 
+}
+.Brave-Border img{
+  height: 55px ;
+  width: 55px;
+}
+.brv2 {
+  background: black;
+  height: 98%;
+  width: 97%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pricing-btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 40px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+  position: relative;
+  transition: 1s;  
+}
+
+.Pricing-btn2 {
+  background: black;
+  position: absolute;
+  height: 95%;
+  width: 98%;
+  border-radius: 50px;
+  transition: 1s;
+
+}
+.middle-card {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-border {
+  height: 99.9%;
+  width: 99.4%;
+  background: #261e2b;
+}
+.PlansBtn{
+    transition: .7s;
+}
+
+.Plans-star1 {
+  position: absolute;
+  right: -20px;
+  top: -50px;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+.Plans-star2 {
+  position: absolute;
+  left: 30%;
+  bottom: -35px;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+.popular {
+  background-color: #c640dd;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.hottest {
+  background-color: #e5463b;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.Brave-div {
+  height: 200px;
+  width: 200px;
+  box-shadow: -10px -30px 10px 50px #d64ff86d;
+  filter: blur(90px);
+}
+
+.Brave-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.493);
+}
+/* PlansPrice.css */
+
+
+
